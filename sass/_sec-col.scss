@@ -1,0 +1,36 @@
+.two-col {
+  background-color: #1e2939;
+  &__img {
+    height: 370px;
+  }
+  &__skills:not(:last-child) {
+    margin-bottom: 44px;
+  }
+  &__contacts {
+    margin-bottom: 44px;
+  }
+  &__container {
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .two-col__title {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  .two-col__item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .two-col__link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,82 @@
+.main {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+  .one-col {
+    width: 525px;
+    padding-left: 88px;
+    padding-top: 102px;
+
+    .modific {
+      color: tomato;
+    }
+    .one-col__projects {
+      .link {
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+      }
+    }
+    &__work-experience {
+      .one-col__list {
+        .one-col__item {
+          color: tomato;
+          margin-bottom: 10px;
+          .one-col__exp-title {
+            color: #000;
+          }
+        }
+        margin-left: 20px;
+        list-style: circle;
+      }
+    }
+    &__about-me,
+    &__projects,
+    &__work-experience,
+    &__education:not(:last-child) {
+      margin-bottom: 45px;
+    }
+    .one-col__exp-title:not(:last-child) {
+      margin-bottom: 11px;
+    }
+    .one-col__name-title {
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 55px;
+      color: #000000;
+    }
+    .one-col__title {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 27px;
+      color: #000000;
+    }
+    .one-col__date {
+      font-size: 12px;
+      line-height: 15px;
+      color: #a8a8a8;
+    }
+    .one-col-education-cont {
+      margin-bottom: 15px;
+    }
+    .one-col__name-of {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #fb6d3a;
+    }
+    .one-col__faculty {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+    .one-col__descr {
+      font-size: 14px;
+      line-height: 24px;
+      color: #595959;
+    }
+  }
+}
