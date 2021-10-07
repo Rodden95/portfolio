@@ -48,7 +48,6 @@ ul {
 }
 
 .main {
-  margin: 0 auto;
   max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,6 +162,14 @@ ul {
   padding-left: 40px;
 }
 
+.two-col .two-col__list > * {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
 .two-col .two-col__title {
   margin-bottom: 8px;
   font-weight: bold;
@@ -182,8 +189,8 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
   opacity: 0.5;
+  color: white;
 }
 
 body {
