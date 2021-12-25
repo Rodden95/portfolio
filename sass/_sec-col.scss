@@ -1,6 +1,7 @@
 
 .two-col {
   background-color: #1e2939;
+  width: 350px;
   &__img {
     height: 370px;
   }
@@ -14,8 +15,7 @@
     padding-top: 50px;
     padding-left: 40px;
     padding-bottom: 35px;
-    width: 300px;
-  }
+    
   .two-col__list {
     // list-style-color
   }
@@ -48,4 +48,5 @@
     opacity: 0.5;
     color: white;
   }
+}
 }
