@@ -1,3 +1,4 @@
+
 .two-col {
   background-color: #1e2939;
   &__img {
@@ -12,6 +13,8 @@
   &__container {
     padding-top: 50px;
     padding-left: 40px;
+    padding-bottom: 35px;
+    max-width: 300px;
   }
   .two-col__list {
     // list-style-color
@@ -30,6 +33,8 @@
     line-height: 27px;
     color: #ffffff;
   }
+
+  
   .two-col__item {
     font-weight: normal;
     font-size: 14px;

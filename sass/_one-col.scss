@@ -78,5 +78,11 @@
       line-height: 24px;
       color: #595959;
     }
+    .work-list{
+      list-style-type:disc;
+    }
+    .work-list li {
+      font-size: smaller;
+    }
   }
 }

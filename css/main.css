@@ -18,7 +18,7 @@ img {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -37,6 +37,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.work-list {
+  list-style: disc;
 }
 
 .is-hidden {
@@ -141,6 +145,14 @@ ul {
   color: #595959;
 }
 
+.main .one-col .work-list {
+  list-style-type: disc;
+}
+
+.main .one-col .work-list li {
+  font-size: smaller;
+}
+
 .two-col {
   background-color: #1e2939;
 }
@@ -160,6 +172,8 @@ ul {
 .two-col__container {
   padding-top: 50px;
   padding-left: 40px;
+  padding-bottom: 35px;
+  max-width: 300px;
 }
 
 .two-col .two-col__list > * {
