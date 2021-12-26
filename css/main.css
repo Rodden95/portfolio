@@ -171,9 +171,7 @@ ul {
 }
 
 .two-col__container {
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-bottom: 35px;
+  padding: 50px 40px 35px 40px;
 }
 
 .two-col__container .two-col__list > * {
