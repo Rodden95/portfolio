@@ -68,14 +68,16 @@ ul {
   padding-top: 102px;
 }
 
-.main .one-col .modific {
-  color: tomato;
+.main .one-col .one-col__projects .link {
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  text-decoration: underline;
 }
 
-.main .one-col .one-col__projects .link {
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+.main .one-col .one-col__projects .one-col__item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .main .one-col__work-experience .one-col__list {
@@ -84,7 +86,6 @@ ul {
 }
 
 .main .one-col__work-experience .one-col__list .one-col__item {
-  color: tomato;
   margin-bottom: 10px;
 }
 
@@ -129,7 +130,6 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
 }
 
 .main .one-col .one-col__faculty {
@@ -142,7 +142,7 @@ ul {
 .main .one-col .one-col__descr {
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #000;
 }
 
 .main .one-col .work-list {
@@ -154,7 +154,7 @@ ul {
 }
 
 .two-col {
-  background-color: #1e2939;
+  background-color: #a5a5a5;
   width: 350px;
 }
 
@@ -175,11 +175,10 @@ ul {
 }
 
 .two-col__container .two-col__list > * {
-  color: #ffffff;
+  color: #000;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  opacity: 0.5;
 }
 
 .two-col__container .two-col__title {
@@ -199,9 +198,9 @@ ul {
 
 .two-col__container .two-col__link {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
-  opacity: 0.5;
+  text-decoration: underline;
   color: white;
 }
 

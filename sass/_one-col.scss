@@ -3,30 +3,35 @@
   max-width: 1200px;
   display: flex;
   flex-direction: row-reverse;
+
   .one-col {
     width: 525px;
     padding-left: 88px;
     padding-top: 102px;
 
-    .modific {
-      color: tomato;
-    }
     .one-col__projects {
       .link {
-        font-size: 14px;
+        margin-left: 5px;
+        font-size: 18px;
         line-height: 24px;
-        color: #595959;
+        color: #000;
+        text-decoration: underline;
+      }
+
+      .one-col__item:not(:last-child) {
+        margin-bottom: 15px;
       }
     }
     &__work-experience {
       .one-col__list {
         .one-col__item {
-          color: tomato;
+          // color: tomato;
           margin-bottom: 10px;
           .one-col__exp-title {
             color: #000;
           }
         }
+
         margin-left: 20px;
         list-style: circle;
       }
@@ -65,7 +70,7 @@
       font-weight: bold;
       font-size: 16px;
       line-height: 20px;
-      color: #fb6d3a;
+      // color: #fb6d3a;
     }
     .one-col__faculty {
       font-weight: bold;
@@ -76,10 +81,10 @@
     .one-col__descr {
       font-size: 14px;
       line-height: 24px;
-      color: #595959;
+      color: #000;
     }
-    .work-list{
-      list-style-type:disc;
+    .work-list {
+      list-style-type: disc;
     }
     .work-list li {
       font-size: smaller;
